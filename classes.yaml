@@ -1,0 +1,65 @@
+classes:
+  - name: normal        # idle/standing
+    queries: ["person standing still", "waiting in line", "man idle hallway"]
+  - name: walk
+    queries: ["walking outside full body", "man walking sidewalk", "woman walking indoors"]
+  - name: run
+    queries: ["jogging outdoors", "runner sprinting", "running on track full body"]
+  - name: sit
+    queries: ["person sitting chair", "sit down on chair", "man seated office"]
+  - name: stand_up
+    queries: ["standing up from chair", "get up from seat full body"]
+  - name: lie_down
+    queries: ["person lying down on floor", "lie down on couch"]
+  - name: fall
+    queries: ["person falling down", "slip and fall", "trip and fall"]
+  - name: jump
+    queries: ["vertical jump", "jumping in place", "box jump gym"]
+  - name: climb_stairs
+    queries: ["climbing stairs full body", "walking upstairs stairwell"]
+  - name: descend_stairs
+    queries: ["walking downstairs full body", "descending stairs"]
+  - name: bend
+    queries: ["person bending down", "bend to pick something up"]
+  - name: reach
+    queries: ["reaching overhead", "reach to shelf full body"]
+  - name: pick_up
+    queries: ["pick up object floor", "pick up backpack"]
+  - name: put_down
+    queries: ["put down object on table", "place box on floor"]
+  - name: wave
+    queries: ["waving hand full body", "person waves hello"]
+  - name: push
+    queries: ["pushing object", "push door", "push cart"]
+  - name: pull
+    queries: ["pulling door", "pull rope", "pull suitcase"]
+  - name: open_door
+    queries: ["open door full body", "entering through door"]
+  - name: close_door
+    queries: ["close door full body", "closing door handle"]
+  - name: drink
+    queries: ["drinking water bottle standing", "take a sip full body"]
+  - name: eat
+    queries: ["eating sandwich standing", "eat snack full body"]
+  - name: phone
+    queries: ["talking on the phone standing", "phone call walking"]
+  - name: type
+    queries: ["typing on laptop standing desk", "working on laptop"]
+  - name: read
+    queries: ["reading a book standing", "read paper full body"]
+  - name: stretch
+    queries: ["full body stretch", "morning stretching routine"]
+  - name: squat
+    queries: ["air squat exercise", "bodyweight squat full body"]
+  - name: lunge
+    queries: ["forward lunge exercise", "walking lunges"]
+  - name: dance
+    queries: ["dancing full body", "freestyle dance street"]
+  - name: wave_two_hands
+    queries: ["waving both hands", "signal with two hands"]
+  - name: carry
+    queries: ["carrying box walking", "carry grocery bags"]
+min_duration_sec: 6
+max_duration_sec: 15
+per_query_limit: 120
+resolution_min: 480
